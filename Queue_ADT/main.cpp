@@ -1,6 +1,5 @@
-#include "Queue.cpp"
 #include <iostream>
-
+#include "Queue.h"
 int main()
 {
 	Queue <int> a;
@@ -13,5 +12,4 @@ int main()
 	a.output();
 	std::cout << a.length();
 	return 0;
-
 }
